@@ -1,0 +1,6 @@
+#!/bin/bash
+
+jupyter contrib nbextension install --user
+jupyter labextension install @oriolmirosa/jupyterlab_materialdarker
+jupyter labextension enable jupyterlab_materialdarker
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension/
