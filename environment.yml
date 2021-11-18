@@ -12,3 +12,4 @@ dependencies:
   - pygraphviz
   - seaborn
   - jupyter_contrib_nbextensions
+  - jupyterlab-link-share
